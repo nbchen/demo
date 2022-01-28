@@ -15,10 +15,10 @@
                     <!-- logo -->
                     <div class="logo">
                         <a href="index.html" class="logo-expanded">
-                            <img src="${res_base_url!}/plugins/webstack/images/logo@2x.png" width="100%" alt="" />
+                            <#--  <img src="${res_base_url!}/plugins/webstack/images/logo@2x.png" width="100%" alt="" />  -->
                         </a>
                         <a href="index.html" class="logo-collapsed">
-                            <img src="${res_base_url!}/plugins/webstack/images/logo-collapsed@2x.png" width="40" alt="" />
+                            <#--  <img src="${res_base_url!}/plugins/webstack/images/logo-collapsed@2x.png" width="40" alt="" />  -->
                         </a>
                     </div>
                     <div class="mobile-menu-toggle visible-xs">
@@ -247,17 +247,17 @@
                     </li>
                     <li class="dropdown hover-line language-switcher" style="display: none;">
                         <a href="../cn/index.html" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="${res_base_url!}/plugins/webstack/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
+                            <#--  <img src="${res_base_url!}/plugins/webstack/images/flags/flag-cn.png" alt="flag-cn" /> Chinese  -->
                         </a>
                         <ul class="dropdown-menu languages">
                             <li>
                                 <a href="../en/index.html">
-                                    <img src="${res_base_url!}/plugins/webstack/images/flags/flag-us.png" alt="flag-us" /> English
+                                    <#--  <img src="${res_base_url!}/plugins/webstack/images/flags/flag-us.png" alt="flag-us" /> English  -->
                                 </a>
                             </li>
                             <li class="active">
                                 <a href="../cn/index.html">
-                                    <img src="${res_base_url!}/plugins/webstack/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
+                                    <#--  <img src="${res_base_url!}/plugins/webstack/images/flags/flag-cn.png" alt="flag-cn" /> Chinese  -->
                                 </a>
                             </li>
                         </ul>

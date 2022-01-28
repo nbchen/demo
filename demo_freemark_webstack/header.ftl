@@ -38,8 +38,8 @@
 
 	<#--  样式和脚本 -->
 	<#if portal == 'true'> 
-		<link rel="shortcut icon" href="${res_base_url!}/plugins/webstack/images/favicon.png">
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+		<#--  <link rel="shortcut icon" href="${res_base_url!}/plugins/webstack/images/favicon.png">  -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
 		<link rel="stylesheet" href="${res_base_url!}/plugins/webstack/css/fonts/linecons/css/linecons.css">
 		<link rel="stylesheet" href="${res_base_url!}/plugins/webstack/css/fonts/fontawesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="${res_base_url!}/plugins/webstack/css/bootstrap.css">
