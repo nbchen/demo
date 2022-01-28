@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+spring:
+  freemarker:
+    allow-request-override: false
+    check-template-location: true
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+    suffix: .ftl
+    content-type: text/html
+    charset: UTF-8
+    cache: false
+    settings:
+      template_update_delay: 0
+    template-loader-path:
+      - classpath:/templates
+  mvc:
+    static-path-pattern: /static/**
